@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Sensitive API keys & Secrets
+config/api_keys.json
+config/certs/*.key
+config/certs/*.crt
+*.key
+*.pem
+*.crt
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
